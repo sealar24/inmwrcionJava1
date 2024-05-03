@@ -36,7 +36,17 @@ public class main {
         mediaEvaluacionUsuario = mediaEvaluacionUsuario/3;
         System.out.println("la evaluacion de los usuarios es: "+mediaEvaluacionUsuario);
 
-        while ()
+        int i=0;
+
+        while (i<3){
+            System.out.println("Ingresa nota de Pelicula");
+            notaPelicula=teclado.nextDouble();
+            mediaEvaluacionUsuario= (mediaEvaluacionUsuario+notaPelicula);
+           i=i+1;
+
+        }
+        mediaEvaluacionUsuario = mediaEvaluacionUsuario/3;
+        System.out.println("la evaluacion de los usuarios es: "+mediaEvaluacionUsuario);
 
 
 
